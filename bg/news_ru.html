@@ -1,0 +1,73 @@
+<html>
+<head>
+<link href="../style.css" rel="stylesheet" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251"></head>
+<body bgcolor="#F3FAFF">
+
+<div id="datacontainer" style="position: absolute; left: 1px; width: 100%; top: -125px;" onmouseover="scrollspeed=0" onmouseout="scrollspeed=cache">
+
+<!-- ADD YOUR SCROLLER CONTENT INSIDE HERE -->
+
+
+
+<p align="left"><font class="sidetext"><strong><a href="elcars.php?lang=ru" target="_top">Новая серия погрузчиков...</a> </strong><br>
+<small>От м. Мая 2007г. в производстве погрузчики с двигателями KUBOTA и DEUTZ. Эти двигатели отвечают всем требованиям    Этапа 3 и Этапа 2 за емиссии выхлопных газов.</small></font></p>
+
+<p align="left"><font class="sidetext"><strong><small><a href="tows.php?lang=ru" target="_top">В процессе изпытания…</a> </small></strong><br>
+<small>новая разработка электропогрузчиков "Балканкар Рекорд"АД с товароподъемностью 1,4-1,6t и высотой подъема до 6,4m. С высокой    маневренностью, компактными размерами и подходящими  дла складских помещений. Серийное производство будет со второй половины  2007г.</small></font></p>
+
+<p align="left"><font class="sidetext"><strong><small><a href="forklifts.php?lang=ru&model=2SR" target="_top">Новый  комбинированный прибор…</a> </small></strong><br>
+<small>для погрузчиков и тягачей позволяющий  контроль и мониторинг  их работы. Прибор информирует водителя о наступившей необходимости технического обслуживания. При возникнувшей неисправности, прибор сигнализирует звуковым  и световым сигналом водителю, при этом одновременно с этим  регистрирует событие в своей  памети.</small></font></p>
+
+<p align="left"><font class="sidetext"><strong><small>Самое новое изделие...</small></strong><br>
+<small>в производственной гамме  "Балканкар Рекорд"АД  Электротележка с товароносимостью до 15t.</small></font></p>
+
+<!-- END SCROLLER CONTENT -->
+
+</p></div>
+
+<script type="text/javascript">
+
+/***********************************************
+* IFRAME Scroller script- Љ Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+//Specify speed of scroll. Larger=faster (ie: 5)
+var scrollspeed=cache=1
+
+//Specify intial delay before scroller starts scrolling (in miliseconds):
+var initialdelay=500
+
+function initializeScroller(){
+dataobj=document.all? document.all.datacontainer : document.getElementById("datacontainer")
+dataobj.style.top="5px"
+setTimeout("getdataheight()", initialdelay)
+}
+
+function getdataheight(){
+thelength=dataobj.offsetHeight
+if (thelength==0)
+setTimeout("getdataheight()",10)
+else
+scrollDiv()
+}
+
+function scrollDiv(){
+dataobj.style.top=parseInt(dataobj.style.top)-scrollspeed+"px"
+if (parseInt(dataobj.style.top)<thelength*(-1))
+dataobj.style.top="5px"
+setTimeout("scrollDiv()",40)
+}
+
+if (window.addEventListener)
+window.addEventListener("load", initializeScroller, false)
+else if (window.attachEvent)
+window.attachEvent("onload", initializeScroller)
+else
+window.onload=initializeScroller
+
+</script>
+
+</body></html>
