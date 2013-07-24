@@ -91,7 +91,11 @@ HTML;
         <td height="328" valign="top" class="textfon"><p>
             <?=$txt[4];?>
           </p>
-            <p align="center"><img src="images/OurCertif.gif" width="102" height="129"><img src="images/gostr.jpg" alt="gostr" width="102" height="78"></p></td>
+            <p align="center"><img src="images/intertrek.jpg" width="43" height="54"><br>
+              <br>
+              <img src="images/OurCertif.gif" width="102"><br>
+                <br>
+                <img src="images/eac.png" width="54" height="43"></p></td>
       </tr>
       <tr>
         <td height="26" valign="top" class="headerfon"><?=$txt[8];?></td>
