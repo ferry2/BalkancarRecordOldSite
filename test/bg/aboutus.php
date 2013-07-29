@@ -151,6 +151,7 @@ HTML;
     <td width="174" valign="top"><?php include("rside.php"); ?></td>
   </tr>
 </table>
+<iframe width="1000" height="70" scrolling="no" frameborder="no" allowtransparency="true" src="http://www.econt.com/voffice/1000x70/?mediator=http%3A%2F%2Fwww.balkancar-record.com%2Fbg%2Faboutus.php%3Flang%3Dbg"></iframe>
 </div>
 </body>
 <?php require_once("footer.php"); ?>
