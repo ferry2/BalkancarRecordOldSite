@@ -1,7 +1,7 @@
 <?php
 $DB_SERVER="localhost"; 		
-$DB_LOGIN="balcancar";
-$DB_PASSWORD="rekord";
+$DB_LOGIN="vladislav";
+$DB_PASSWORD="!sierra?2000,";
 $DB="balcancar";
 $HTTP_HOST="www.balkancar-record.com/bg";
 $SITE_ALIGN = "center";

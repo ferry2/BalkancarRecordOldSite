@@ -21,6 +21,8 @@ for ($i=0; $i<mysql_num_rows($result); $i++) {
     <td valign="top" class="textfon"><div align="center"><a href="http://www.efisiomarchese.it/" target="_blank"
 				onmouseover="window.status='http://www.efisiomarchese.it/';  return true;"
 				onmouseout="window.status='';  return true;">
+        <!-- Facebook Badge START --><a href="http://www.facebook.com/pages/Balkancar-Record-JSC/151365561578329" target="_blank" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Balkancar Record JSC">Balkancar Record JSC</a><br/><a href="http://www.facebook.com/pages/Balkancar-Record-JSC/151365561578329" target="_blank" title="Balkancar Record JSC"><img src="http://badge.facebook.com/badge/151365561578329.1737.212047539.png" style="border: 0px;" /></a><br/><!-- Facebook Badge END -->
+        <br />
       <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="100" height="67">
         <param name="movie" value="../images/efisio.swf" />
         <param name="quality" value="high" />
@@ -38,8 +40,6 @@ for ($i=0; $i<mysql_num_rows($result); $i++) {
 				onmouseover="window.status='http://www.iskras.com/';  return true;"
 				onmouseout="window.status='';  return true;"><img src="images/Iskra.jpg" border="0" alt=" " /><br />
         <br />
-        <!-- Facebook Badge START --><a href="http://www.facebook.com/pages/Balkancar-Record-JSC/151365561578329" target="_blank" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Balkancar Record JSC">Balkancar Record JSC</a><br/><a href="http://www.facebook.com/pages/Balkancar-Record-JSC/151365561578329" target="_blank" title="Balkancar Record JSC"><img src="http://badge.facebook.com/badge/151365561578329.1737.212047539.png" style="border: 0px;" /></a><br/><!-- Facebook Badge END -->
-        <br />
-    </a></div></td>
+    </div></td>
   </tr>
 </table>
